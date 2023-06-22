@@ -1,7 +1,7 @@
 .header-container {
   max-height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -10,5 +10,14 @@
 }
 
 .header-title {
+  font-size: 30px;
+}
+
+.text-section {
+  display: flex;
+  justify-content: center;
+}
+
+.text-section p {
   font-size: 20px;
 }
